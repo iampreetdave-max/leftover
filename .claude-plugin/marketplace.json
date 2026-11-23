@@ -1,0 +1,20 @@
+{
+  "name": "leftover",
+  "owner": {
+    "name": "Preet Dave"
+  },
+  "metadata": {
+    "description": "Spend the weekly Claude quota you would lose anyway on the side projects you never get to: a ranked menu sized to your remaining limit, questions up front, then unattended work across your accounts."
+  },
+  "plugins": [
+    {
+      "name": "leftover",
+      "description": "Scans your projects folder, ranks tasks that fit your remaining weekly limit, asks every question up front, then works through your picks unattended in git worktrees and leaves a report.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/leftover"
+      ]
+    }
+  ]
+}
